@@ -1,7 +1,7 @@
 body {
+    background-color: #000000;
+    color: #90EE90;
     font-family: Arial, sans-serif;
-    background: #000000;
-    color: #90ee90;
     margin: 0;
     padding: 20px;
 }
@@ -13,63 +13,23 @@ body {
 
 h1 {
     text-align: center;
-    color: #39ff14;
-    text-shadow: 0 0 10px #39ff14;
-    margin-bottom: 30px;
+    color: #39FF14;
 }
 
 .card {
-    background: #111111;
-    border: 1px solid #39ff14;
-    margin: 15px 0;
+    background-color: #111111;
+    border: 1px solid #39FF14;
+    border-radius: 12px;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(57, 255, 20, 0.2);
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 25px rgba(57, 255, 20, 0.5);
+    margin: 15px 0;
 }
 
 .card h2 {
-    color: #39ff14;
-    text-shadow: 0 0 5px #39ff14;
+    color: #39FF14;
 }
 
 .descricao {
-    display: none;
-    margin-top: 10px;
-    color: #98fb98;
-    line-height: 1.8;
-    text-align: justify;
-}
-
-button {
+    color: #90EE90;
     display: block;
-    margin: 25px auto;
-    padding: 12px 24px;
-    border: 2px solid #39ff14;
-    background: transparent;
-    color: #39ff14;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    background: #39ff14;
-    color: #000000;
-    box-shadow: 0 0 20px #39ff14;
-}
-
-footer {
-    text-align: center;
-    color: #90ee90;
-    margin-top: 30px;
-    padding: 15px;
-    border-top: 1px solid #39ff14;
+    line-height: 1.8;
 }
