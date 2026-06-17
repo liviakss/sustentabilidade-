@@ -1,109 +1,180 @@
-<div class="card">
-    <h2>🌱 O que é Sustentabilidade?</h2>
-    <p class="descricao">
-        A sustentabilidade é um conceito que busca atender às necessidades atuais sem comprometer os recursos das futuras gerações.
-        Ela envolve o equilíbrio entre crescimento econômico, preservação ambiental e bem-estar social.
-        Esse modelo de desenvolvimento incentiva o uso consciente dos recursos naturais.
-        Além disso, promove práticas que reduzem os impactos causados pela ação humana.
-        Dessa forma, contribui para a construção de um futuro mais justo e equilibrado para todos.
-    </p>
-</div>
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
 
-<div class="card">
-    <h2>🚜 Agro Forte, Futuro Sustentável</h2>
-    <p class="descricao">
-        O agronegócio desempenha um papel fundamental na produção de alimentos e no desenvolvimento econômico do país.
-        No entanto, é necessário que essa produção aconteça de forma responsável e sustentável.
-        O uso de tecnologias modernas permite aumentar a produtividade sem prejudicar o meio ambiente.
-        A preservação dos recursos naturais também é essencial para garantir a continuidade da produção agrícola.
-        Assim, é possível unir crescimento econômico e conservação ambiental.
-    </p>
-</div>
+    <style>
+        body {
+            background: #000000;
+            color: #90EE90;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
 
-<div class="card">
-    <h2>💧 Uso Consciente da Água</h2>
-    <p class="descricao">
-        A água é um recurso indispensável para a vida e para a agricultura.
-        Seu uso consciente ajuda a evitar desperdícios e garante sua disponibilidade no futuro.
-        Técnicas como irrigação controlada e reaproveitamento da água da chuva são exemplos de práticas sustentáveis.
-        A proteção de rios, lagos e nascentes também é muito importante.
-        Dessa forma, a produção agrícola pode ser mantida sem comprometer esse recurso tão valioso.
-    </p>
-</div>
+        h1 {
+            text-align: center;
+            color: #39FF14;
+            text-shadow: 0 0 10px #39FF14;
+            margin-bottom: 30px;
+        }
 
-<div class="card">
-    <h2>🌳 Preservação das Florestas</h2>
-    <p class="descricao">
-        As florestas são essenciais para o equilíbrio ambiental e para a manutenção da biodiversidade.
-        Elas ajudam a regular o clima, proteger o solo e conservar os recursos hídricos.
-        Além disso, absorvem parte do dióxido de carbono presente na atmosfera.
-        A preservação das áreas florestais contribui para a redução dos impactos das mudanças climáticas.
-        Por isso, proteger as florestas é uma responsabilidade de toda a sociedade.
-    </p>
-</div>
+        .card {
+            background: #111111;
+            border: 1px solid #39FF14;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(57, 255, 20, 0.2);
+            transition: 0.3s;
+        }
 
-<div class="card">
-    <h2>☀️ Energias Renováveis</h2>
-    <p class="descricao">
-        As energias renováveis são fontes de energia obtidas a partir de recursos naturais que se renovam constantemente.
-        Entre elas estão a energia solar, eólica e hidrelétrica.
-        Essas alternativas ajudam a reduzir a emissão de gases poluentes e a dependência de combustíveis fósseis.
-        No campo, podem ser utilizadas para alimentar sistemas de irrigação e equipamentos agrícolas.
-        Seu uso contribui para uma produção mais sustentável e eficiente.
-    </p>
-</div>
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
+        }
 
-<div class="card">
-    <h2>🌾 Agricultura Sustentável</h2>
-    <p class="descricao">
-        A agricultura sustentável busca produzir alimentos de forma eficiente sem causar danos ao meio ambiente.
-        Ela utiliza práticas que preservam o solo, economizam água e reduzem o uso excessivo de produtos químicos.
-        A rotação de culturas e o controle biológico de pragas são exemplos dessas técnicas.
-        Além de proteger a natureza, essas práticas ajudam a manter a produtividade a longo prazo.
-        Assim, garantem benefícios tanto para os produtores quanto para a sociedade.
-    </p>
-</div>
+        .card h2 {
+            color: #39FF14;
+        }
 
-<div class="card">
-    <h2>🤖 Tecnologia e Inovação no Campo</h2>
-    <p class="descricao">
-        A tecnologia tem transformado a forma como os alimentos são produzidos.
-        Equipamentos modernos, drones e sensores permitem monitorar plantações com mais precisão.
-        Essas ferramentas ajudam a identificar problemas rapidamente e a reduzir desperdícios.
-        Além disso, contribuem para o uso mais eficiente de água, fertilizantes e defensivos agrícolas.
-        Dessa maneira, a inovação favorece uma agricultura mais produtiva e sustentável.
-    </p>
-</div>
+        .descricao {
+            color: #90EE90;
+            line-height: 1.8;
+            text-align: justify;
+        }
 
-<div class="card">
-    <h2>♻️ Reciclagem e Reutilização</h2>
-    <p class="descricao">
-        A reciclagem é uma importante ferramenta para reduzir a quantidade de resíduos descartados no meio ambiente.
-        Materiais como papel, plástico, vidro e metal podem ser reaproveitados e transformados em novos produtos.
-        A reutilização também ajuda a diminuir o consumo de recursos naturais.
-        Essas práticas reduzem a poluição e incentivam hábitos mais conscientes.
-        Por isso, são fundamentais para a construção de uma sociedade sustentável.
-    </p>
-</div>
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #90EE90;
+            border-top: 1px solid #39FF14;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
 
-<div class="card">
-    <h2>🌎 A Importância de Cada Pessoa</h2>
-    <p class="descricao">
-        A sustentabilidade depende da participação de toda a sociedade.
-        Pequenas atitudes do dia a dia podem gerar grandes resultados para o meio ambiente.
-        Economizar água, evitar desperdícios e separar o lixo para reciclagem são exemplos simples e eficazes.
-        Além disso, a conscientização das pessoas incentiva mudanças positivas na comunidade.
-        Cada ação conta na construção de um futuro mais sustentável.
-    </p>
-</div>
+    <h1>🌱 Agro Forte, Futuro Sustentável 🌎</h1>
 
-<div class="card">
-    <h2>📌 Conclusão</h2>
-    <p class="descricao">
-        O desenvolvimento sustentável é essencial para garantir qualidade de vida às gerações presentes e futuras.
-        O equilíbrio entre produção e preservação ambiental deve ser uma prioridade em todos os setores da sociedade.
-        A adoção de práticas sustentáveis contribui para a conservação dos recursos naturais e para o crescimento econômico responsável.
-        Além disso, fortalece a relação entre o ser humano e o meio ambiente.
-        Portanto, investir em sustentabilidade é investir em um futuro melhor para todos.
-    </p>
-</div>
+    <div class="card">
+        <h2>🌱 O que é Sustentabilidade?</h2>
+        <p class="descricao">
+            A sustentabilidade é um conceito que busca atender às necessidades atuais sem comprometer os recursos das futuras gerações.
+            Ela envolve o equilíbrio entre crescimento econômico, preservação ambiental e bem-estar social.
+            Esse modelo de desenvolvimento incentiva o uso consciente dos recursos naturais.
+            Além disso, promove práticas que reduzem os impactos causados pela ação humana.
+            Dessa forma, contribui para a construção de um futuro mais justo e equilibrado para todos.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🚜 Agro Forte, Futuro Sustentável</h2>
+        <p class="descricao">
+            O agronegócio desempenha um papel fundamental na produção de alimentos e no desenvolvimento econômico do país.
+            No entanto, é necessário que essa produção aconteça de forma responsável e sustentável.
+            O uso de tecnologias modernas permite aumentar a produtividade sem prejudicar o meio ambiente.
+            A preservação dos recursos naturais também é essencial para garantir a continuidade da produção agrícola.
+            Assim, é possível unir crescimento econômico e conservação ambiental.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>💧 Uso Consciente da Água</h2>
+        <p class="descricao">
+            A água é um recurso indispensável para a vida e para a agricultura.
+            Seu uso consciente ajuda a evitar desperdícios e garante sua disponibilidade no futuro.
+            Técnicas como irrigação controlada e reaproveitamento da água da chuva são exemplos de práticas sustentáveis.
+            A proteção de rios, lagos e nascentes também é muito importante.
+            Dessa forma, a produção agrícola pode ser mantida sem comprometer esse recurso tão valioso.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🌳 Preservação das Florestas</h2>
+        <p class="descricao">
+            As florestas são essenciais para o equilíbrio ambiental e para a manutenção da biodiversidade.
+            Elas ajudam a regular o clima, proteger o solo e conservar os recursos hídricos.
+            Além disso, absorvem parte do dióxido de carbono presente na atmosfera.
+            A preservação das áreas florestais contribui para a redução dos impactos das mudanças climáticas.
+            Por isso, proteger as florestas é uma responsabilidade de toda a sociedade.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>☀️ Energias Renováveis</h2>
+        <p class="descricao">
+            As energias renováveis são fontes de energia obtidas a partir de recursos naturais que se renovam constantemente.
+            Entre elas estão a energia solar, eólica e hidrelétrica.
+            Essas alternativas ajudam a reduzir a emissão de gases poluentes e a dependência de combustíveis fósseis.
+            No campo, podem ser utilizadas para alimentar sistemas de irrigação e equipamentos agrícolas.
+            Seu uso contribui para uma produção mais sustentável e eficiente.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🌾 Agricultura Sustentável</h2>
+        <p class="descricao">
+            A agricultura sustentável busca produzir alimentos de forma eficiente sem causar danos ao meio ambiente.
+            Ela utiliza práticas que preservam o solo, economizam água e reduzem o uso excessivo de produtos químicos.
+            A rotação de culturas e o controle biológico de pragas são exemplos dessas técnicas.
+            Além de proteger a natureza, essas práticas ajudam a manter a produtividade a longo prazo.
+            Assim, garantem benefícios tanto para os produtores quanto para a sociedade.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🤖 Tecnologia e Inovação no Campo</h2>
+        <p class="descricao">
+            A tecnologia tem transformado a forma como os alimentos são produzidos.
+            Equipamentos modernos, drones e sensores permitem monitorar plantações com mais precisão.
+            Essas ferramentas ajudam a identificar problemas rapidamente e a reduzir desperdícios.
+            Além disso, contribuem para o uso mais eficiente de água, fertilizantes e defensivos agrícolas.
+            Dessa maneira, a inovação favorece uma agricultura mais produtiva e sustentável.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>♻️ Reciclagem e Reutilização</h2>
+        <p class="descricao">
+            A reciclagem é uma importante ferramenta para reduzir a quantidade de resíduos descartados no meio ambiente.
+            Materiais como papel, plástico, vidro e metal podem ser reaproveitados e transformados em novos produtos.
+            A reutilização também ajuda a diminuir o consumo de recursos naturais.
+            Essas práticas reduzem a poluição e incentivam hábitos mais conscientes.
+            Por isso, são fundamentais para a construção de uma sociedade sustentável.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🌎 A Importância de Cada Pessoa</h2>
+        <p class="descricao">
+            A sustentabilidade depende da participação de toda a sociedade.
+            Pequenas atitudes do dia a dia podem gerar grandes resultados para o meio ambiente.
+            Economizar água, evitar desperdícios e separar o lixo para reciclagem são exemplos simples e eficazes.
+            Além disso, a conscientização das pessoas incentiva mudanças positivas na comunidade.
+            Cada ação conta na construção de um futuro mais sustentável.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>📌 Conclusão</h2>
+        <p class="descricao">
+            O desenvolvimento sustentável é essencial para garantir qualidade de vida às gerações presentes e futuras.
+            O equilíbrio entre produção e preservação ambiental deve ser uma prioridade em todos os setores da sociedade.
+            A adoção de práticas sustentáveis contribui para a conservação dos recursos naturais e para o crescimento econômico responsável.
+            Além disso, fortalece a relação entre o ser humano e o meio ambiente.
+            Portanto, investir em sustentabilidade é investir em um futuro melhor para todos.
+        </p>
+    </div>
+
+    <footer>
+        Projeto Agrinho 2026 - Agro Forte, Futuro Sustentável 🌱
+    </footer>
+
+</body>
+</html>
+```
